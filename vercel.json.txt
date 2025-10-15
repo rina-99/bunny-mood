@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "env": {
+    "VITE_SUPABASE_URL": "https://fbwbzbkvqjlussatfubc.supabase.co/
+",
+    "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZid2J6Ymt2cWpsdXNzYXRmdWJjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA0NDYwNTQsImV4cCI6MjA3NjAyMjA1NH0.GfkdV4DsAo7I-P-cEJice2PN1_xZPVWtqvRTmCKbWXY"
+  }
+}
