@@ -56,6 +56,9 @@ CREATE POLICY "Users can view their own profile"
 CREATE POLICY "Users can update their own profile"
   ON profiles FOR UPDATE USING (auth.uid() = id);
 
+git add .
+git commit -m "Fix: installed Supabase client 🐰📦"
+git push
 CREATE POLICY "Users can insert their own profile"
   ON profiles FOR INSERT WITH CHECK (auth.uid() = id);
 
